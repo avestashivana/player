@@ -1,0 +1,43 @@
+header {
+  background-color: hsl(215, 24%, 31%);
+  height: 40vh;
+
+  button {
+    width: 3rem;
+    height: 3rem;
+    svg {
+      width: 2rem;
+      height: 2rem;
+      align-items: center;
+    }
+  }
+
+  .music-cover {
+    height: 23rem;
+    width: 23rem;
+    border-radius: 50%;
+    background-color: hsl(216, 41%, 21%);
+    margin-right: 2rem;
+    background-size: cover;
+    .key-play {
+      height: 15rem;
+      width: 15rem;
+      margin-left: 2rem;
+    }
+  }
+
+  .music-description {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      line-height: 220%;
+    }
+    .key-star {
+      height: 2.5rem;
+      width: 2.5rem;
+      color: $primary;
+    }
+  }
+}

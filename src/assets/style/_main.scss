@@ -1,0 +1,49 @@
+main {
+  height: 60vh;
+  overflow-y: scroll;
+
+  .music-item {
+    position: relative;
+    margin: 3%;
+    padding: 3%;
+    width: 80%;
+
+    &::after {
+      content: "";
+      display: block;
+      background-color: $primary;
+      height: 4px;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+    }
+    .music-cover {
+      height: 10rem;
+      width: 10rem;
+      border-radius: 50%;
+      background-color: aqua;
+      background-size: cover;
+    }
+    .music-desc {
+      flex: 1;
+      margin-top: 5%;
+      margin-left: 2%;
+
+      h5 {
+        color: $primary;
+      }
+    }
+    .music-options {
+      justify-content: space-between;
+      margin-top: 11.5%;
+
+      svg {
+        color: $primary;
+      }
+
+      span {
+        margin-right: 5rem;
+      }
+    }
+  }
+}

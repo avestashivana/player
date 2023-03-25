@@ -1,0 +1,17 @@
+:root {
+  --primary: hsl(229, 94%, 62%);
+  --white: hsl(211, 25%, 84%);
+  --dark-gray: hsl(218, 23%, 23%);
+  --black: hsl(220, 26%, 14%);
+  --gray: hsl(216, 15%, 52%);
+  --font-size: 1.6rem;
+  --line-height: 200%;
+}
+
+$primary:var(--primary);
+$white:var(--white);
+$black:var(--black);
+$gray:var(--gray);
+$darkGray:var(--dark-gray);
+$fontSize:var(--font-size);
+$lineHeight:var(--line-height);
